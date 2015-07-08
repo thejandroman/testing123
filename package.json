@@ -1,0 +1,23 @@
+{
+    "name": "pool-league-react",
+    "description": "My pool league app",
+    "version": "0.0.1",
+    "author": "IdeasFTW",
+    "main": "server.js",
+    "engines": {
+        "iojs": "2.x",
+        "node": "0.12.x",
+        "npm": "3.1.x"
+    },
+    "scripts": {
+        "postinstall": "bower install --config.interactive=false",
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "body-parser": "^1.4.3",
+        "bower": "~1.4.1",
+        "express": "^4.4.5",
+        "lodash": "~3.10.0"
+    }
+}
